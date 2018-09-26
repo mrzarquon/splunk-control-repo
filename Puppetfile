@@ -18,5 +18,5 @@ forge 'https://forge.puppet.com'
 
 mod 'puppetlabs-ntp', '7.2.0'
 mod 'puppetlabs-stdlib', '4.25.1'
-mod 'splunk_hev',
+mod 'splunk_hec',
   :git => https://github.com/mrzarquon/splunk_hec.git
