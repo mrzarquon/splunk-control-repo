@@ -6,14 +6,14 @@ class profile::splunk::apache (
 ) {
 
   @splunkforwarder_input { 'apache-access_log-sourcetype':
-    section => "monitor:///${$access_log}",
+    section => "monitor:///${access_log}",
     setting => 'sourcetype',
     value   => 'apache-access_log',
     tag     => 'splunk_forwarder'
   }
 
   @splunkforwarder_input { 'apache-error_log-sourcetype':
-    section => "monitor:///${$access_log}",
+    section => "monitor:///${error_log}",
     setting => 'sourcetype',
     value   => 'apache-error_log',
     tag     => 'splunk_forwarder'
