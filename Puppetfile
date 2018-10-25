@@ -10,6 +10,8 @@ mod 'puppetlabs-apache', '3.4.0'
 mod 'puppetlabs-stdlib', '5.1.0'
 mod 'puppetlabs-concat', '5.1.0'
 mod 'puppet-splunk', '7.3.0'
+mod 'puppetlabs-inifile', '2.4.0'
+mod 'puppet-archive', '3.2.1'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
