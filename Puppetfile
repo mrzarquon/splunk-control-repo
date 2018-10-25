@@ -6,6 +6,10 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs/stdlib',      '4.25.1'
 #mod 'puppetlabs/concat',      '4.2.1'
 
+mod 'puppetlabs-apache', '3.4.0'
+mod 'puppetlabs-stdlib', '5.1.0'
+mod 'puppetlabs-concat', '5.1.0'
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
@@ -17,7 +21,6 @@ forge 'https://forge.puppet.com'
 #  :branch => 'docs_experiment'
 
 mod 'puppetlabs-ntp', '7.2.0'
-mod 'puppetlabs-stdlib', '4.25.1'
 mod 'puppetlabs-puppet_agent', '1.7.0'
 mod 'puppetlabs-bolt_shim', '0.2.0'
 mod 'puppetlabs-exec', '0.3.0'
