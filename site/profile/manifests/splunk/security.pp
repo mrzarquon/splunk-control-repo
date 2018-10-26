@@ -6,14 +6,14 @@ class profile::splunk::security {
     section => 'monitor:///var/log/audit/audit.log',
     setting => 'sourcetype',
     value   => 'linux_audit_log',
-    tag     => ['splunk_forwarder', 'security']
+    tag     => ['splunk_forwarder', 'security'],
   }
 
   @splunkforwarder_input { 'linux_secure_log-sourcetype':
     section => 'monitor:///var/log/secure',
     setting => 'sourcetype',
     value   => 'linux_secure_log',
-    tag     => ['splunk_forwarder', 'security']
+    tag     => ['splunk_forwarder', 'security'],
   }
   
 }
