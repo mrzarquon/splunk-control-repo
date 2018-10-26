@@ -1,2 +1,6 @@
 ---
-message: "This node is using common data"
+ntp::servers:
+  - time1.google.com iburst
+  - time2.google.com iburst
+  - time3.google.com iburst
+  - time4.google.com iburst
