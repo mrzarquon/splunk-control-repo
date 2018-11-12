@@ -24,7 +24,11 @@ mod 'puppet-archive', '3.2.1'
 #  :branch => 'docs_experiment'
 
 mod 'puppetlabs-ntp', '7.2.0'
-mod 'puppetlabs-puppet_agent', '1.7.0'
+mod 'puppetlabs-service', '0.4.0'
+mod 'puppetlabs-facts', '0.4.1'
+mod 'puppet_agent',
+    git: 'https://github.com/puppetlabs/puppetlabs-puppet_agent',
+    ref: '52b5b6abc2d10fb8827edead34ef8ebe4adf1e29' 
 mod 'puppetlabs-bolt_shim', '0.2.0'
 mod 'puppetlabs-exec', '0.3.0'
 mod 'splunk_hec',
