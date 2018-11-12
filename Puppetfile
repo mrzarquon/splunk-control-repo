@@ -31,5 +31,16 @@ mod 'puppet_agent',
     ref: '52b5b6abc2d10fb8827edead34ef8ebe4adf1e29' 
 mod 'puppetlabs-bolt_shim', '0.2.0'
 mod 'puppetlabs-exec', '0.3.0'
+mod 'puppetlabs-apply_helpers', '0.1.0'
+# Useful additional modules
+mod 'puppetlabs-package', '0.3.0'
+mod 'puppetlabs-puppet_conf', '0.3.0'
+mod 'puppetlabs-python_task_helper', '0.1.2'
+mod 'puppetlabs-ruby_task_helper', '0.1.0'
+
+# If we don't list these modules explicitly, r10k will purge them
+mod 'canary', local: true
+mod 'aggregate', local: true
+mod 'puppetdb_fact', local: true
 mod 'splunk_hec',
   :git => 'https://github.com/mrzarquon/splunk_hec.git'
