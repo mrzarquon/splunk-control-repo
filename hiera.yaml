@@ -9,5 +9,6 @@ hierarchy:
     data_hash: yaml_data
     paths:
       - "nodes/%{trusted.certname}.yaml"
+      - "application/%{trusted.application}.yaml"
       - "zones/%{facts.gce.instance.zone}.yaml"
       - 'common.yaml'

@@ -14,8 +14,8 @@ class profile::splunk::forwarder (
 
   class { '::splunk::forwarder':
     package_ensure => 'latest',
-    purge_outputs => true,
-    purge_inputs => true,
+    purge_outputs  => true,
+    purge_inputs   => true,
   }
 
 }
