@@ -1,9 +1,5 @@
 # Sample class to configure inputs for the 
 
-# /var/log/puppetlabs/puppetserver/puppetserver-access.log
-# /var/log/puppetlabs/puppetdb/puppetdb.log
-# /var/log/puppetlabs/puppetdb/puppetdb-access.log
-
 
 class profile::splunk::puppetinfrastructure {
 

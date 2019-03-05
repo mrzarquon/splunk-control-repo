@@ -39,4 +39,4 @@ mod 'puppetlabs-python_task_helper', '0.1.2'
 mod 'puppetlabs-ruby_task_helper', '0.1.0'
 
 mod 'splunk_hec',
-  :git => 'https://github.com/mrzarquon/splunk_hec.git'
+  :git => 'https://github.com/puppetlabs/splunk_hec.git'
