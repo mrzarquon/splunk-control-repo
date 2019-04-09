@@ -40,4 +40,4 @@ mod 'puppetlabs-ruby_task_helper', '0.1.0'
 
 mod 'splunk_hec',
   :git => 'https://github.com/mrzarquon/puppetlabs-splunk_hec.git',
-  :commit => '0d9ac896e589583c20f307b9792df2b21e5fbb77'
+  :branch => 'add_fact_generation'
