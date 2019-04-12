@@ -38,7 +38,6 @@ mod 'puppetlabs-puppet_conf', '0.3.0'
 mod 'puppetlabs-python_task_helper', '0.1.2'
 mod 'puppetlabs-ruby_task_helper', '0.1.0'
 
-mod 'puppetlabs-apache', '4.1.0'
 mod 'puppet-letsencrypt', '4.0.0'
 
 
