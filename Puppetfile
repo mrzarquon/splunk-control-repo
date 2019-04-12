@@ -39,6 +39,7 @@ mod 'puppetlabs-python_task_helper', '0.1.2'
 mod 'puppetlabs-ruby_task_helper', '0.1.0'
 
 mod 'puppet-letsencrypt', '4.0.0'
+mod 'stahnma-epel', '1.3.1'
 
 
 mod 'splunk_hec',
