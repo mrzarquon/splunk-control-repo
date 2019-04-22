@@ -41,6 +41,8 @@ mod 'puppetlabs-ruby_task_helper', '0.1.0'
 mod 'puppet-letsencrypt', '4.0.0'
 mod 'stahnma-epel', '1.3.1'
 
+mod 'investigate',
+  :git => 'https://github.com/mrzarquon/puppet-module-investigate.git'
 
 mod 'splunk_hec',
   :git => 'https://github.com/mrzarquon/puppetlabs-splunk_hec.git',
