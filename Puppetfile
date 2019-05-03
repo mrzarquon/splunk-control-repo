@@ -6,12 +6,13 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs/stdlib',      '4.25.1'
 #mod 'puppetlabs/concat',      '4.2.1'
 
-mod 'puppetlabs-apache', '3.4.0'
-mod 'puppetlabs-stdlib', '5.1.0'
-mod 'puppetlabs-concat', '5.1.0'
+mod 'puppetlabs-apache', :latest
+mod 'puppetlabs-stdlib', :latest
+mod 'puppetlabs-concat', :latest
 mod 'puppet-splunk', '7.3.0'
-mod 'puppetlabs-inifile', '2.4.0'
-mod 'puppet-archive', '3.2.1'
+mod 'puppetlabs-inifile', :latest
+mod 'puppet-archive', :latest
+mod 'puppetlabs-transition', :latest
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -23,15 +24,14 @@ mod 'puppet-archive', '3.2.1'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'puppetlabs-ntp', '7.2.0'
-
+mod 'puppetlabs-ntp', :latest
+mod 'puppetlabs-apt', :latest
+mod 'puppetlabs-vcsrepo', :latest
 mod 'puppetlabs-service', :latest
 
 mod 'puppetlabs-facts', :latest
 
-mod 'puppet_agent',
-    git: 'https://github.com/puppetlabs/puppetlabs-puppet_agent',
-    ref: '52b5b6abc2d10fb8827edead34ef8ebe4adf1e29' 
+mod 'puppetlabs-puppet_agent', :latest 
 mod 'puppetlabs-bolt_shim', :latest
 mod 'puppetlabs-exec', :latest
 mod 'puppetlabs-apply_helpers', :latest
