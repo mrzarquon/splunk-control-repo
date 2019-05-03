@@ -48,4 +48,4 @@ mod 'investigate',
 
 mod 'splunk_hec',
   :git => 'https://github.com/mrzarquon/puppetlabs-splunk_hec.git',
-  :branch => 'add_fact_generation'
+  :branch => 'add_face'
