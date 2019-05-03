@@ -24,19 +24,22 @@ mod 'puppet-archive', '3.2.1'
 #  :branch => 'docs_experiment'
 
 mod 'puppetlabs-ntp', '7.2.0'
-mod 'puppetlabs-service', '0.4.0'
-mod 'puppetlabs-facts', '0.4.1'
+
+mod 'puppetlabs-service', :latest
+
+mod 'puppetlabs-facts', :latest
+
 mod 'puppet_agent',
     git: 'https://github.com/puppetlabs/puppetlabs-puppet_agent',
     ref: '52b5b6abc2d10fb8827edead34ef8ebe4adf1e29' 
-mod 'puppetlabs-bolt_shim', '0.2.0'
-mod 'puppetlabs-exec', '0.3.0'
-mod 'puppetlabs-apply_helpers', '0.1.0'
+mod 'puppetlabs-bolt_shim', :latest
+mod 'puppetlabs-exec', :latest
+mod 'puppetlabs-apply_helpers', :latest
 # Useful additional modules
-mod 'puppetlabs-package', '0.3.0'
-mod 'puppetlabs-puppet_conf', '0.3.0'
-mod 'puppetlabs-python_task_helper', '0.1.2'
-mod 'puppetlabs-ruby_task_helper', '0.1.0'
+mod 'puppetlabs-package', :latest
+mod 'puppetlabs-puppet_conf', :latest
+mod 'puppetlabs-python_task_helper', :latest
+mod 'puppetlabs-ruby_task_helper', :latest
 mod 'puppetlabs-java', '3.3.0'
 
 
