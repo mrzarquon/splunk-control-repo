@@ -38,7 +38,7 @@ mod 'puppetlabs-puppet_conf', '0.3.0'
 mod 'puppetlabs-python_task_helper', '0.1.2'
 mod 'puppetlabs-ruby_task_helper', '0.1.0'
 mod 'puppetlabs-java', '3.3.0'
-mod 'puppetlabs-puppet_metrics_collector', '5.1.2'
+
 
 mod 'puppet-letsencrypt', '4.0.0'
 mod 'stahnma-epel', '1.3.1'
@@ -49,3 +49,7 @@ mod 'investigate',
 mod 'splunk_hec',
   :git => 'https://github.com/mrzarquon/puppetlabs-splunk_hec.git',
   :branch => 'add_face'
+
+mod 'puppet_metrics_collector',
+  :git => 'https://github.com/mrzarquon/puppetlabs-puppet_metrics_collector.git',
+  :branch => 'enable_splunk_support'
