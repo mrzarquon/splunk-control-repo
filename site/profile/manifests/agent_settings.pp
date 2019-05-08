@@ -12,12 +12,12 @@ class profile::agent_settings {
 
   pe_ini_setting { 'set splaylimit':
     setting => 'splaylimit',
-    value   => '10m',
+    value   => '5m',
   }
 
   pe_ini_setting { 'shorten runinterval':
     setting => 'runinterval',
-    value   => '10m',
+    value   => '5m',
   }
 
 }
