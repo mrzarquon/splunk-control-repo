@@ -51,7 +51,7 @@ mod 'investigate',
 
 mod 'splunk_hec',
   :git => 'https://github.com/mrzarquon/puppetlabs-splunk_hec.git',
-  :branch => 'add_face'
+  :branch => 'pie_66_add_store_support'
 
 mod 'puppet_metrics_collector',
   :git => 'https://github.com/mrzarquon/puppetlabs-puppet_metrics_collector.git',
