@@ -15,7 +15,7 @@ mod 'puppet-archive', :latest
 mod 'puppetlabs-transition', :latest
 
 # Windows Firewall Mgmt (needs stdlib >=4.6.0 <6.0.0/7.0.0)
-mod 'puppetlabs/firewall', '2.0.0'
+mod 'puppetlabs/firewall', '1.15.3'
 mod 'puppet-windows_firewall', '2.0.1'
 mod 'puppetlabs-registry', '2.1.0'
 
