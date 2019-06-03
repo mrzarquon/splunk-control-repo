@@ -68,7 +68,7 @@ class profile::firewall(
       }
 
       firewall { '101 disallow_mysql':
-        ensure => $ensure,
+        ensure => absent,
         dport  => 3306,
         proto  => tcp,
         action => accept,
