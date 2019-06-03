@@ -73,10 +73,6 @@ class profile::firewall(
         action => 'accept',
       }
 
-      # resources { 'firewall':
-      #   purge => true,
-      # }
-
       firewall { '001 accept all to lo interface':
         proto   => 'all',
         iniface => 'lo',
@@ -99,6 +95,10 @@ class profile::firewall(
         proto  => 'all',
         action => 'drop',
         before => undef,
+      }
+      
+      resources { 'firewall':
+        purge => true,
       }
     }
     default: {
