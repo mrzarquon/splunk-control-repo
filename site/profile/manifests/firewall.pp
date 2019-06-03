@@ -73,9 +73,9 @@ class profile::firewall(
         action => 'accept',
       }
 
-      resources { 'firewall':
-        purge => true,
-      }
+      # resources { 'firewall':
+      #   purge => true,
+      # }
 
       firewall { '001 accept all to lo interface':
         proto   => 'all',
