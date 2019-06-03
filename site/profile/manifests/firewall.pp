@@ -67,6 +67,13 @@ class profile::firewall(
         action => accept,
       }
 
+      firewall { '101 disallow_mysql':
+        ensure => $ensure,
+        dport  => 3306,
+        proto  => tcp,
+        action => accept,
+      }
+
       # Default firewall rules
       firewall { '000 accept all icmp':
         proto  => 'icmp',
