@@ -14,6 +14,11 @@ mod 'puppetlabs-inifile', :latest
 mod 'puppet-archive', :latest
 mod 'puppetlabs-transition', :latest
 
+# Windows Firewall Mgmt (needs stdlib >=4.6.0 <6.0.0/7.0.0)
+mod 'puppetlabs/firewall', '2.0.0'
+mod 'puppet-windows_firewall', '2.0.1'
+mod 'puppetlabs-registry', '2.1.0'
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
