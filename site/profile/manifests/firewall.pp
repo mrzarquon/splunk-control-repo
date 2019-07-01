@@ -67,14 +67,17 @@ class profile::firewall(
         action => accept,
       }
 
+      firewall { '101 disallow_mysql':
+        ensure => absent,
+        dport  => 3306,
+        proto  => tcp,
+        action => accept,
+      }
+
       # Default firewall rules
       firewall { '000 accept all icmp':
         proto  => 'icmp',
         action => 'accept',
-      }
-
-      resources { 'firewall':
-        purge => true,
       }
 
       firewall { '001 accept all to lo interface':
@@ -99,6 +102,10 @@ class profile::firewall(
         proto  => 'all',
         action => 'drop',
         before => undef,
+      }
+      
+      resources { 'firewall':
+        purge => true,
       }
     }
     default: {

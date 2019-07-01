@@ -15,9 +15,13 @@ mod 'puppet-archive', :latest
 mod 'puppetlabs-transition', :latest
 
 # Windows Firewall Mgmt (needs stdlib >=4.6.0 <6.0.0/7.0.0)
-mod 'puppetlabs/firewall', '2.0.0'
+mod 'puppetlabs/firewall', '1.15.3'
 mod 'puppet-windows_firewall', '2.0.1'
 mod 'puppetlabs-registry', '2.1.0'
+
+# SSH Mgmt
+mod 'herculesteam-augeasproviders_ssh', '3.2.1'
+mod 'herculesteam-augeasproviders_core', '2.4.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -61,3 +65,4 @@ mod 'splunk_hec',
 mod 'puppet_metrics_collector',
   :git => 'https://github.com/HelenCampbell/puppetlabs-puppet_metrics_collector.git',
   :branch => 'PIE-51'
+
